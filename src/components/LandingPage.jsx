@@ -32,7 +32,7 @@ function LandingPage() {
         className="w-full p-4 sticky top-0 flex justify-between items-center px-4 md:px-20 transition-colors duration-300 z-50 "
       >
         <h1 className="sm:text-3xl text-2xl font-bold flex gap-2 items-center">
-          <img src="public/images/download.png" alt="" className="w-10 h-10" />
+          <img src="download.png" alt="" className="w-10 h-10" />
           <p> ConvertLy</p>
         </h1>
         <nav className="hidden md:block">
