@@ -1,0 +1,10 @@
+.navbar-mobile {
+    transition: max-height 0.2s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    
+  }
+  
+  .navbar-mobile.open {
+    max-height: 200px; /* Adjust this value based on your content */
+  }
