@@ -54,8 +54,8 @@ function Converter() {
             </div>
 
             {/* Converter Section */}
-            <div className="w-full max-w-4xl bg-white/20 rounded-lg p-6 shadow-lg">
-                <div className="w-full max-w-md mx-auto">
+            <div className="w-full max-w-4xl bg-white/20 rounded-lg sm:p-6 shadow-lg">
+                <div className="w-full sm:max-w-md mx-auto">
                     <div className="w-full border border-white/30 rounded-lg p-6 bg-white/10 ">
                         <h1 className="w-full text-center font-bold text-white text-2xl pb-4">
                             Currency Converter
@@ -78,7 +78,7 @@ function Converter() {
 
                                 {/* Currency Selection and Swap Button */}
                                 <div className="flex flex-col sm:flex-row justify-between items-center py-4 gap-4">
-                                    <div className="w-full sm:w-2/5">
+                                    <div className="w-full sm:w-2/5 flex justify-center">
                                         <Select
                                             label="From"
                                             currencyOptions={options}
@@ -98,7 +98,7 @@ function Converter() {
                                             Swap
                                         </button>
                                     </div>
-                                    <div className="w-full sm:w-2/5">
+                                    <div className="w-full sm:w-2/5 flex justify-center">
                                         <Select
                                             label="To"
                                             currencyOptions={options}
