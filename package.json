@@ -1,13 +1,13 @@
 {
-  "homepage": "https://amitraj857804.github.io/currency-converter",
+  "homepage": "https://amitraj857804.github.io/currency-converter/",
   "name": "currency-converter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
